@@ -89,6 +89,18 @@ const ProSecNav = () => {
       ],
     },
     {
+      label: '混沌工程',
+      key: '/sub-chaos',
+      icon: <HeatMapOutlined />,
+      children: [
+        {
+          label: 'chaos',
+          key: '/chaos',
+          icon: <FireOutlined />,
+        },
+      ],
+    },
+    {
       label: '构建工具',
       key: '/sub-list',
       icon: <ApartmentOutlined />,

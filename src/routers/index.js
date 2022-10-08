@@ -19,8 +19,10 @@ const ParallaxVert = loadable(() => import('../pages/parallax'), { fallback: <Lo
 const DemoChoroplethMap = loadable(() => import('../pages/chinamap'), { fallback: <Loading /> })
 const QrCode = loadable(() => import('../pages/qrGenerate'), { fallback: <Loading /> })
 const ReactPlayerDemo = loadable(() => import('../pages/reactPlayer'), { fallback: <Loading /> })
+const Chaos = loadable(() => import('../pages/chaosblade/chaosbladeBasic/List'), { fallback: <Loading /> })
 const Landing = loadable(() => import('../pages/landing'), { fallback: <Loading /> })
 const NoMatch = loadable(() => import('../components/stateless/NoMatch'), { fallback: <Loading /> })
+
 // import basicRouter from './basic'
 // import couponsRouter from './coupons'
 // import productRouter from './product'
@@ -117,6 +119,13 @@ const rootRouter = [
         name: '后端技术栈',
         key: '/product',
         element: <Product />,
+      },
+      {
+        index: false,
+        path: 'chaos',
+        name: '混沌工程',
+        key: '/chaos',
+        element: <Chaos />,
       },
       {
         index: false,

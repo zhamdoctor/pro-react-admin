@@ -14,8 +14,8 @@ const NodePolyfillPlugin = require('node-polyfill-webpack-plugin')
 // const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin')
 const WebpackBar = require('webpackbar')
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
-const paths = require('./paths')
 const ESLintWebpackPlugin = require('eslint-webpack-plugin')
+const paths = require('./paths')
 
 // const { getThemeVariables } = require('antd/dist/theme')
 

@@ -20,8 +20,9 @@
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
+    "import/prefer-default-export": "off",
     "prettier/prettier": [
-      "error",
+      "warn",
       {
         "endOfLine": "auto"
       }
@@ -49,6 +50,7 @@
     "import/no-unresolved": "off",
     "no-console": "off",
     "import/extensions": "off",
-    "no-nested-ternary": "off"
+    "no-nested-ternary": "off",
+    "no-unused-vars": "off"
   }
 }
